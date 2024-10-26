@@ -39,7 +39,7 @@ dados %>%
        x = "Idade", y = "Quantidade de vítimas")+
   geom_vline(xintercept = mean(dados$idade_vitima, na.rm = TRUE), color = "blue", linetype = 2, size = 0.8)+
   annotate("text", 
-           x = mean(dados$idade_vitima, na.rm = TRUE) + 5, 
+           x = mean(dados$idade_vitima, na.rm = TRUE) + 12, 
            y = 115000, 
            label = "Média das idades", 
            size = 4)+
